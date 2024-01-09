@@ -1538,10 +1538,10 @@ function correctDeltaY (delta) {
 function generateColor () {
     let color;
     if(Math.random() > 0.5) {
-        color = HSVtoRGB(267, 0.91, 0.94);
+        color = HSVtoRGB(0.74, 0.91, 0.94);
     }
     else {
-        color = HSVtoRGB(0.45, 0.83, 1.00);
+        color = HSVtoRGB(0.98, 0.78, 1.00);
     }
     color.r *= 0.15
     color.g *= 0.15
