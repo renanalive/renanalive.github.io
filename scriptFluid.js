@@ -1541,7 +1541,7 @@ function generateColor () {
         color = HSVtoRGB(0.74, 0.91, 0.94);
     }
     else {
-        color = HSVtoRGB(0.17, 0.83, 1.00);
+        color = HSVtoRGB(0.12, 0.83, 1.00);
     }
     color.r *= 0.15
     color.g *= 0.15
