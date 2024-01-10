@@ -44,7 +44,7 @@ let config = {
     COLORFUL: false,
     COLOR_UPDATE_SPEED: 0,
     PAUSED: false,
-    BACK_COLOR: { r: 29, g: 21, b: 40 },
+    BACK_COLOR: { r: 19, g: 14, b: 27 },
     TRANSPARENT: false,
     BLOOM: true,
     BLOOM_ITERATIONS: 8,
@@ -930,7 +930,7 @@ let bloomFramebuffers = [];
 let sunrays;
 let sunraysTemp;
 
-let ditheringTexture = createTextureAsync('LDR_LLL1_1.png');
+let ditheringTexture = createTextureAsync('LDR_LLL1_0.png');
 
 const blurProgram            = new Program(blurVertexShader, blurShader);
 const copyProgram            = new Program(baseVertexShader, copyShader);
